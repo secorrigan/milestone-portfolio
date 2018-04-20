@@ -1,0 +1,213 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+#about {
+    height: 500px;
+}
+
+#services {
+    height: 500px;
+}
+
+#portfolio {
+    height: 300px;
+}
+
+#contact {
+    height: 607px;
+    background: url(../img/contact-background.jpg) no-repeat;
+    background-size: cover;
+}
+
+	
+/***** GRID *****/
+.full-width {
+    width: 1134px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 567px;
+    float: left;
+}
+
+.third-width {
+    width: 378px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 777px;
+    width: 1366px;
+    background: url('../img/header-background.jpg') no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+header .full-width {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.6);
+    margin-top: 261px;
+}
+
+header h1 { 
+    font-family: 'Playfair Display', serif;
+    font-size: 58px;
+    color: #000000;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    font-weight: normal;
+    color: #000000;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+nav { 
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 24px;  
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+header a {
+    color: #06688c;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 70px;
+}
+
+header a:hover {
+    color: black;
+}
+
+/****** ABOUT SECTION ******/
+
+#about h2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 28px;
+    color: #06688c;
+    text-align: center;
+}
+
+#about p {
+    font-size: 20px;
+    color: #000000;
+    padding-right: 50px;
+    line-height: 26px;
+}
+
+#about img {
+    height: 350px;
+    width: 350px;
+    padding: 0 120px;
+}
+
+/****** SERVICES SECTION ******/
+
+#services {
+    background: #ebebeb;
+    text-align: center;
+    overflow: auto;
+}
+
+#services h2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 28px;
+    color: #06688c;
+}
+ 
+#services img {
+    padding-bottom: 30px;
+    height: 141px;
+}
+ 
+#services p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 35px;
+}
+
+/****** PORTFOLIO SECTION ******/
+
+#portfolio {
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 28px;
+    color: #06688c;
+}
+
+#portfolio p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/****** CONTACT SECTION ******/
+#contact {
+    background: url(../img/contact-background.jpg) no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+
+#contact h2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 28px;
+    color: #06688c;
+    text-align: center;
+}
+
+#contact h3 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+#contact p {
+    font-size: 20px;
+}
+
+#contact .email {
+    font-weight: bold;
+    color: #06688c;
+}
+
+#contact .half-width {
+    padding-left: 650px;
+    padding-top: 100px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    height: 60px;
+    padding-right: 48px;
+}
+
+/****** FOOTER ******/
+footer {
+    text-align: center;
+    font-size: 12px;
+}
